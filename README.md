@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Task Management Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Task Management frontend repository! This project is built using React.js to provide a dynamic and intuitive user interface for managing tasks. It incorporates Bootstrap for styling and utilizes multiple routing pages for seamless navigation. With features like form error handling and server error management, users can enjoy a smooth experience while managing their tasks. The frontend also integrates Axios for API calls, enabling efficient communication with the backend.
 
-## Available Scripts
+## Previews
 
-In the project directory, you can run:
+### HomePage
+![task1](https://github.com/surajagrawal01/TaskManagement-FrontEnd/assets/140191446/4d4ece32-a503-44f3-8be9-448dae1f4ab3)
 
-### `npm start`
+### Task Handling Page
+![task3](https://github.com/surajagrawal01/TaskManagement-FrontEnd/assets/140191446/6c9278e8-19c9-4d2e-b87a-494fa555c598)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- **React.js**: A JavaScript library for building user interfaces.
+- **Bootstrap**: A popular CSS framework for responsive and mobile-first design.
+- **Axios**: A promise-based HTTP client for making API requests.
+- **React Router**: A routing library for React applications, used for multiple page navigation.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- **Dynamic UI**: Utilizes React.js to create a dynamic and interactive user interface for managing tasks.
+- **Styling with Bootstrap**: Enhances the UI with Bootstrap's pre-designed components and responsive layout.
+- **Error Handling**: Implements form error handling to provide feedback to users and improve usability.
+- **Server Error Management**: Handles server errors gracefully to maintain a smooth user experience.
+- **API Integration**: Utilizes Axios for making API calls to the backend, enabling seamless communication with the server.
+- **Task Sorting and Filtering**: Allows users to sort and filter their tasks based on status and priority, enhancing task management efficiency.
+- **Multi-User Support**: Provides support for multiple users, allowing each user to manage their tasks independently.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   git clone https://github.com/surajagrawal01/TaskManagement-Frontend.git
 
-### `npm run eject`
+2. Install Dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+      cd TaskManagement-Frontend
+      npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Start the development server
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+       npm start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Usage
+Once the development server is running, you can access the Task Management frontend in your web browser. The application provides a user-friendly interface for managing tasks, allowing users to sort, filter, and perform various actions on their tasks.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contributing
+Contributions are welcome! If you have any suggestions, improvements, or feature requests, feel free to submit a pull request or open an issue.
