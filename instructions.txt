@@ -1,0 +1,8 @@
+Prerequisite: NodeJS is installed
+//To Run the react app follow the steps:
+Execute the lines on terminal
+1.  cd my-app
+2.  npm install
+3.  npm start
+
+React app will start running on port 3000
